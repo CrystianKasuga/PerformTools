@@ -1,0 +1,1 @@
+ENTRYPOINT ["java", "-javaagent:/usr/local/lib/opentelemetry/opentelemetry-javaagent.jar", "-Dotel.service.name=grupo5", "-Dotel.traces.exporter=otlp", "-Dotel.metrics.exporter=none", "-Dotel.exporter.otlp.endpoint=http://collector-api:4318", "-Dotel.exporter.otlp.protocol=http/protobuf", "-jar","/usr/local/lib/grupo5-0.0.1-SNAPSHOT.jar"]
