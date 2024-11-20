@@ -4,18 +4,18 @@ sonar.projectKey=com.queijos_finos.queijos_finos
 # Nome do projeto
 sonar.projectName=Queijos Finos
 
-# Vers„o do projeto
+# Vers√£o do projeto
 sonar.projectVersion=0.0.1
 
 sonar.java.binaries=target/classes
 
-# DiretÛrio do cÛdigo-fonte
+# Diret√≥rio do c√≥digo-fonte
 #sonar.sources=src/main/java
 
 # URL do servidor SonarQube
 sonar.host.url=http://localhost:9000
 
-# Token de autenticaÁ„o (caso necess·rio)
+# Token de autentica√ß√£o (caso necess√°rio)
 sonar.login=sqa_22eaa78b75389f528761d322a592b844cd07f2b5
 
 sonar.exclusions=04.1. opentelemetry/**,apache-jmeter-5.6.3/**,collector/**,grafana/**

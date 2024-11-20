@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Propriedades</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="./contratos.css"/>
+
+
+</head>
+
+<body>
+<div class="index">
+    <div class="sidebar">
+
+        <nav>
+            <a href="/paginaInicial">
+                <button class="botao-sidebar" href="produtor.html">
+	              <span>
+	                <?xml version="1.0" encoding="UTF-8"?>
+                      <svg
+                              width="24px"
+                              height="24px"
+                              stroke-width="1.5"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              color="#000000"
+                      >
+	                  <path
+                              d="M3 5H21"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                  <path
+                              d="M3 12H21"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                  <path
+                              d="M3 19H21"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                </svg>
+	                <span>Home</span>
+	              </span>
+                </button>
+            </a>
+            <a href="/propriedade">
+                <button class="botao-sidebar">
+	              <span>
+	                <?xml version="1.0" encoding="UTF-8"?>
+                      <svg
+                              width="24px"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              color="#000000"
+                      >
+	                  <path
+                              d="M2 8L11.7317 3.13416C11.9006 3.04971 12.0994 3.0497 12.2683 3.13416L22 8"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                  <path
+                              d="M20 11V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V11"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                </svg>
+	                <span>Propriedades</span>
+	              </span>
+                </button>
+            </a>
+            <a href="/cursos">
+                <button class="botao-sidebar">
+	              <span>
+	                <?xml version="1.0" encoding="UTF-8"?>
+                      <svg
+                              width="24px"
+                              stroke-width="1.5"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              color="#000000"
+                      >
+	                  <path
+                              d="M4 19V5C4 3.89543 4.89543 3 6 3H19.4C19.7314 3 20 3.26863 20 3.6V16.7143"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                  <path
+                              d="M6 17L20 17"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                  <path
+                              d="M6 21L20 21"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                  <path
+                              d="M6 21C4.89543 21 4 20.1046 4 19C4 17.8954 4.89543 17 6 17"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                  <path
+                              d="M9 7L15 7"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                </svg>
+	                <span>Cursos</span>
+	              </span>
+                </button>
+            </a>
+            <a href="/contratos">
+                <button class="botao-sidebar">
+	              <span>
+	                <?xml version="1.0" encoding="UTF-8"?>
+                      <svg
+                              width="24px"
+                              stroke-width="1.5"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              color="#000000"
+                      >
+	                  <path
+                              d="M4 19V5C4 3.89543 4.89543 3 6 3H19.4C19.7314 3 20 3.26863 20 3.6V16.7143"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                  <path
+                              d="M6 17L20 17"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                  <path
+                              d="M6 21L20 21"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                  <path
+                              d="M6 21C4.89543 21 4 20.1046 4 19C4 17.8954 4.89543 17 6 17"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                  <path
+                              d="M9 7L15 7"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                      ></path>
+	                </svg>
+	                <span>Contratos</span>
+	              </span>
+                </button>
+            </a>
+            <a href="/fornecedores">
+                <button class="botao-sidebar" href="produtor.html">
+	              <span>
+	                <?xml version="1.0" encoding="UTF-8"?>
+                      <svg
+                              width="24px"
+                              height="24px"
+                              stroke-width="1.5"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              color="#000000"
+                      >
+	                  <path
+                              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                  <path
+                              d="M4.271 18.3457C4.271 18.3457 6.50002 15.5 12 15.5C17.5 15.5 19.7291 18.3457 19.7291 18.3457"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                  <path
+                              d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3431 6 9 7.34315 9 9C9 10.6569 10.3431 12 12 12Z"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+	                </svg>
+	                <span>Fornecedores</span>
+	              </span>
+                </button>
+            </a>
+            <a href="/usuarios">
+                <button class="botao-sidebar" href="produtor.html">
+                  <span>
+                    <?xml version="1.0" encoding="UTF-8"?>
+                      <svg
+                              width="24px"
+                              height="24px"
+                              stroke-width="1.5"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              color="#000000"
+                      >
+                      <path
+                              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+                      <path
+                              d="M4.271 18.3457C4.271 18.3457 6.50002 15.5 12 15.5C17.5 15.5 19.7291 18.3457 19.7291 18.3457"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+                      <path
+                              d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3431 6 9 7.34315 9 9C9 10.6569 10.3431 12 12 12Z"
+                              stroke="#000000"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>Usuarios</span>
+                  </span>
+                </button>
+            </a>
+        </nav>
+    </div>
+    <div class="w-100">
+
+        <div class="superior">
+            <header class="sidebar-header">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg width="30px" height="30px" stroke-width="1.5"
+                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                    <path
+                            d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path
+                            d="M4.271 18.3457C4.271 18.3457 6.50002 15.5 12 15.5C17.5 15.5 19.7291 18.3457 19.7291 18.3457"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path
+                            d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3431 6 9 7.34315 9 9C9 10.6569 10.3431 12 12 12Z"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span>OlÃ¡ usuario!</span>
+            </header>
+        </div>
+
+        <div class="conteudo-index p-3" style="overflow-y: auto; overflow-x:hidden">
+            <div class="d-flex align-items-center justify-content-between p-3 border border-black w-100">
+                <h1 class="mx-auto mb-0">Propriedades</h1>
+                <a href="/propriedade/cadastrar">
+                    <button class="rounded-pill shadow botaoCadastrar">+ CADASTRAR NOVO</button>
+                </a>
+            </div>
+
+
+            <div class="w-100 m-5">
+                <table id="myTable" class="">
+                    <thead>
+                    <tr>
+                        <th>Column 1</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="prop : ${propriedade}">
+                        <td>
+                            <div class="w-100 d-flex">
+                                <div class="accordion w-100" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    th:data-bs-target="'#panelsStayOpen-collapse' + ${prop.idPropriedade}"
+                                                    aria-expanded="true"
+                                                    th:aria-controls="'panelsStayOpen-collapse' + ${prop.idPropriedade}">
+                                                <div class="d-flex align-items-center gap-2 ">
+                                                    <svg width="24px" height="24px" viewBox="0 0 24 24"
+                                                         stroke-width="1.5"
+                                                         fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
+                                                        <path
+                                                                d="M2 8L11.7317 3.13416C11.9006 3.04971 12.0994 3.0497 12.2683 3.13416L22 8"
+                                                                stroke="#000000" stroke-width="1.5"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round">
+                                                        </path>
+                                                        <path
+                                                                d="M20 11V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V11"
+                                                                stroke="#000000" stroke-width="1.5"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round">
+                                                        </path>
+                                                    </svg>
+                                                    <p th:text="${prop.nomePropriedade}"
+                                                       class="text-center mb-0 ml-2"></p>
+                                                </div>
+
+                                            </button>
+                                        </h2>
+                                        <div th:id="'panelsStayOpen-collapse'+ ${prop.idPropriedade}"
+                                             class="accordion-collapse collapse  ">
+                                            <div class="accordion-body">
+                                                <div class="d-flex align-items-center gap-2" style="height: 50px;">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32"
+                                                         height="32"
+                                                         viewBox="0 0 32 32">
+                                                        <path
+                                                                d="M 16 4 C 12.144531 4 9 7.144531 9 11 C 9 13.394531 10.21875 15.519531 12.0625 16.78125 C 8.484375 18.304688 6 21.859375 6 26 L 8 26 C 8 21.535156 11.535156 18 16 18 C 20.464844 18 24 21.535156 24 26 L 26 26 C 26 21.859375 23.515625 18.304688 19.9375 16.78125 C 21.78125 15.519531 23 13.394531 23 11 C 23 7.144531 19.855469 4 16 4 Z M 16 6 C 18.773438 6 21 8.226563 21 11 C 21 13.773438 18.773438 16 16 16 C 13.226563 16 11 13.773438 11 11 C 11 8.226563 13.226563 6 16 6 Z">
+                                                        </path>
+                                                    </svg>
+                                                    <p th:text="${prop.nomeProdutor}" class="text-center mb-0 ml-2"></p>
+                                                </div>
+
+                                                <div class="d-flex align-items-center gap-2" style="height: 50px;">
+                                                    <svg enable-background="new 0 0 50 50" height="32px" id="Layer_1"
+                                                         version="1.1"
+                                                         viewBox="0 0 50 50" width="32px" xml:space="preserve"
+                                                         xmlns="http://www.w3.org/2000/svg"
+                                                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                                <rect fill="none" height="32" width="32"/>
+                                                        <path
+                                                                d="M40,17  c0,13.604-15,31-15,31S10,30.928,10,17c0-8.285,6.715-15,15-15C33.284,2,40,8.715,40,17z"
+                                                                fill="none" stroke="#000000" stroke-linejoin="round"
+                                                                stroke-miterlimit="10" stroke-width="1.7647"/>
+                                                        <circle cx="25" cy="18" fill="none" r="6" stroke="#000000"
+                                                                stroke-linejoin="round" stroke-miterlimit="10"
+                                                                stroke-width="1.7647"/>
+                                                            </svg>
+                                                    <p th:text="${prop.cidade}" class="text-center mb-0 ml-2"></p>
+                                                </div>
+
+                                                <div class="d-flex align-items-center gap-2" style="height: 50px;">
+                                                    <svg width="32" height="32" viewBox="0 0 37 39" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M2 32.7438V30.8223C2 23.3938 7.22816 17.3718 13.6774 17.3718"
+                                                              stroke="black" stroke-width="2.25" stroke-linecap="round"
+                                                              stroke-linejoin="round"/>
+                                                        <path
+                                                                d="M25.0277 17.9743C26.0983 16.6202 27.948 16.6202 29.0187 17.9743C29.5599 18.6587 30.3376 19.0298 31.1403 18.9865C32.7286 18.901 34.0366 20.4077 33.9624 22.2371C33.9249 23.1617 34.247 24.0575 34.8412 24.6809C36.0168 25.9141 36.0168 28.0446 34.8412 29.2778C34.247 29.9012 33.9249 30.797 33.9624 31.7216C34.0366 33.5511 32.7286 35.0577 31.1403 34.9722C30.3376 34.929 29.5599 35.3 29.0187 35.9844C27.948 37.3385 26.0983 37.3385 25.0277 35.9844C24.4865 35.3 23.7088 34.929 22.9061 34.9722C21.3178 35.0577 20.0097 33.5511 20.084 31.7216C20.1215 30.797 19.7994 29.9012 19.2052 29.2778C18.0296 28.0446 18.0296 25.9141 19.2052 24.6809C19.7994 24.0575 20.1215 23.1617 20.084 22.2371C20.0097 20.4077 21.3178 18.901 22.9061 18.9865C23.7088 19.0298 24.4865 18.6587 25.0277 17.9743Z"
+                                                                stroke="black" stroke-width="2.25"/>
+                                                        <path d="M24.293 26.9795L26.113 29.0756L29.7527 24.8833"
+                                                              stroke="black"
+                                                              stroke-width="2.25" stroke-linecap="round"
+                                                              stroke-linejoin="round"/>
+                                                        <path
+                                                                d="M13.6774 17.3719C17.3627 17.3719 20.3502 13.9307 20.3502 9.68596C20.3502 5.44112 17.3627 2 13.6774 2C9.99215 2 7.00464 5.44112 7.00464 9.68596C7.00464 13.9307 9.99215 17.3719 13.6774 17.3719Z"
+                                                                stroke="black" stroke-width="2.25"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"/>
+                                                    </svg>
+                                                    <p class="text-center mb-0 ml-2">Status</p>
+                                                    <p class="font-weight-bold text-center mb-0 ml-2 "
+                                                       th:style="'color:' + (${prop.status == 0} ? 'rgb(184,43,43);font-weight: bold' : (${prop.status == 1} ? 'rgb(226,195,29);font-weight: bold' : 'rgb(80,160,30);font-weight: bold'))"
+                                                       th:text="${prop.status == 2} ? 'Produzindo' : (${prop.status == 1} ? 'ContemplaÃ§Ã£o' : 'Desistente')"></p>
+                                                  
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <button class="btn btn-secondary"
+                                                            th:attr="data-url=@{/propriedade/visualizar(idPropriedade=${prop.idPropriedade})}"
+                                                            onclick="window.location.href = this.getAttribute('data-url')">
+                                                        Ver mais
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script type="text/javascript" charset="utf8"
+                    src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('#usuarioTable').DataTable();
+                });
+                new DataTable('#usuarioTable');
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                    crossorigin="anonymous"></script>
+            <script>
+                $(document).ready(function () {
+                    $('#myTable').DataTable();
+                });
+                new DataTable('#myTable');
+            </script>
+
+</body>
+</html>

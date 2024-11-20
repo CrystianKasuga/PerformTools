@@ -1,0 +1,1 @@
+@ 2webX¡hr7src/main/resources/templates/visualizarPropriedade.html

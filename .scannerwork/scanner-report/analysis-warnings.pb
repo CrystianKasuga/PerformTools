@@ -1,0 +1,4 @@
+ô
+èThe property 'sonar.login' is deprecated and will be removed in the future. Please use the 'sonar.token' property instead when passing a token.Ìÿôπ¥2»
+æDependencies/libraries were not provided for analysis of SOURCE files. The 'sonar.java.libraries' property is empty. Verify your configuration, as you might end up with less precise results.°»öπ¥2∞
+¶Missing blame information for 2 files. This may lead to some features not working correctly. Please check the analysis logs and refer to <a href="https://docs.sonarsource.com/sonarqube/10.7/analyzing-source-code/scm-integration/" rel="noopener noreferrer" target="_blank">the documentation</a>.Ü≤®π¥2

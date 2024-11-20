@@ -1,0 +1,1 @@
+= 2webXÅhr6src/main/resources/templates/propriedadeCadastrar.html

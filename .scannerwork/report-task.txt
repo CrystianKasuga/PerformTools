@@ -1,0 +1,6 @@
+projectKey=com.queijos_finos.queijos_finos
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=com.queijos_finos.queijos_finos
+ceTaskId=3dedc984-3f46-47ee-8bf9-6eb71209c5bf
+ceTaskUrl=http://localhost:9000/api/ce/task?id=3dedc984-3f46-47ee-8bf9-6eb71209c5bf

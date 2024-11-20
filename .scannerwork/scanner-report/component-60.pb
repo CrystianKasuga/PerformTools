@@ -1,0 +1,1 @@
+< 2webX¹hr-src/main/resources/templates/propriedade.html

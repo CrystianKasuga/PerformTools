@@ -1,0 +1,56 @@
+Plugins:
+Bundled analyzers:
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - IaC Code Quality and Security 1.36.0.12431 (iac)
+  - Text Code Quality and Security 2.16.0.4008 (text)
+  - Clean as You Code 2.4.0.2018 (cayc)
+  - XML Code Quality and Security 2.10.0.4108 (xml)
+Global server settings:
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.core.id=FC9687EE-AZNHCnzTjX47M4X_qruB
+  - sonar.core.startTime=2024-11-20T01:16:57+0000
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.flex.file.suffixes=as
+  - sonar.forceAuthentication=true
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig
+  - sonar.ipynb.file.suffixes=ipynb
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.jvmframeworkconfig.file.patterns=**/src/main/resources/**/application*.properties,**/src/main/resources/**/application*.yaml,**/src/main/resources/**/application*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.python.file.suffixes=py
+  - sonar.qualityProfiles.allowDisableInheritedRules=true
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.scala.file.suffixes=.scala
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xml,.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project server settings:
+Project scanner properties:
+  - sonar.exclusions=04.1. opentelemetry/**,apache-jmeter-5.6.3/**,collector/**,grafana/**
+  - sonar.host.url=http://localhost:9000
+  - sonar.java.binaries=target/classes
+  - sonar.login=******
+  - sonar.projectBaseDir=C:\PerformTools
+  - sonar.projectKey=com.queijos_finos.queijos_finos
+  - sonar.projectName=Queijos Finos
+  - sonar.projectVersion=0.0.1
+  - sonar.scanner.apiBaseUrl=http://localhost:9000/api/v2
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=6.2.1.4610
+  - sonar.scanner.arch=amd64
+  - sonar.scanner.bootstrapStartTime=1732065506707
+  - sonar.scanner.home=C:\sonarScanner\bin\..
+  - sonar.scanner.os=windows
+  - sonar.scanner.wasEngineCacheHit=true
+  - sonar.scanner.wasJreCacheHit=HIT
+  - sonar.verbose=true
+  - sonar.working.directory=C:\PerformTools\.scannerwork

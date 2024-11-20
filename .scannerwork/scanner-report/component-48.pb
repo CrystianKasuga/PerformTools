@@ -1,0 +1,1 @@
+0 2cssXµhr*src/main/resources/static/fornecedores.css
